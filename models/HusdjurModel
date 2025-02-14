@@ -1,0 +1,16 @@
+var mongoose = require("mongoose");
+
+var HusdjurSchema = new mongoose.Schema(
+  {
+    djurtyp: String,
+    färg: String,
+    ålder: String,
+    ras: String,
+    namn: String,
+  },
+  {
+    collection: "husdjur",
+  }
+);
+
+module.exports = mongoose.model("HusdjurModel", HusdjurSchema);
