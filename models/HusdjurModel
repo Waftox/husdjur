@@ -3,8 +3,8 @@ var mongoose = require("mongoose");
 var HusdjurSchema = new mongoose.Schema(
   {
     djurtyp: String,
-    färg: String,
-    ålder: String,
+    farg: String,
+    alder: String,
     ras: String,
     namn: String,
   },
